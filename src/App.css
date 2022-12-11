@@ -1,0 +1,118 @@
+body {
+  padding: 0%;
+  margin: 0%;
+}
+
+.App {
+  height: 100vh;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  background: #833472; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #833472, #151386); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #833472, #151386); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background: linear-gradient(to right, #ffd86f, #fc6262);
+  background-size: 400% 400%;
+  animation: gradientBG 10s ease infinite;
+  @keyframes gradientBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}
+  
+
+/* 
+.dark-bg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  
+} */
+
+.text-test {
+  color: #423fcf;
+  font-family: 'Alumni Sans', sans-serif;
+  font-weight: 800;
+  font-size: 100px;
+  /* letter-spacing: 2px; */
+  line-height: 100px;
+  padding: 20px;
+  margin: 20px;
+  background-image: -webkit-linear-gradient(0deg, #6f6ce7 2%,#4517cf 0%,#8a004c 54%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  /* text-fill-color: transparent; */
+  -webkit-text-fill-color: transparent;
+
+}
+
+/* .gradient-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to right, #ffd86f, #fc6262);
+  background-size: 400% 400%;
+  animation: gradientBG 10s ease infinite;
+} */
+
+/* @keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} */
+
+         
+.btn-grad {
+  background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Alumni Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border: none; 
+  margin: 10px 10px 10px 40px;        
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
