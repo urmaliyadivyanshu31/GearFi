@@ -28,7 +28,7 @@ for (let input of inputs) {
 		<form className='simple-form'>
 			<input className='form-input' required type='text' id='contract-address' placeholder='Contract Address'></input>
 
-			<input required className='form-input optional' type='text' id='tokenId' placeholder='Token ID' optional></input>
+			<input required className='form-input optional' type='number' id='tokenId' placeholder='Token ID' optional></input>
 			<input required className='form-input' type='text' id='asking-price' placeholder='Asking Price'></input>
 		<input required className='form-input' type='text' id='repayment' placeholder='Repayment Duration'></input>
 		</form>

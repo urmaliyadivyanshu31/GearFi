@@ -31,7 +31,7 @@ export default function Navbar() {
           </li>
           <li
             onClick={() => {
-              navigate('*');
+              navigate('/docs');
             }}
           >
             Docs

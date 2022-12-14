@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from '../assets/Navbar'
 
 function ErrorPage() {
   return (
